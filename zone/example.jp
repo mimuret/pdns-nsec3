@@ -1,0 +1,8 @@
+$TTL 300
+$ORIGIN example.jp.
+@ IN SOA  root postmaster 1 1800 900 604800 300
+@ IN NS ns.example.jp
+ns IN A 127.0.0.1
+ns.sub IN A 127.0.0.2
+sub IN NS ns.sub
+
